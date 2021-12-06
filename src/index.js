@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import "bootstrap/dist/css/bootstrap.min.css";
+import App from "./App";
 
 ReactDOM.render(
-    <h1> How does it works !</h1>,document.getElementById('root')
+    <App />,document.getElementById('root')
 );
 
